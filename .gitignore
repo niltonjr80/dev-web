@@ -2,3 +2,5 @@ node_modules
 .vscode
 coverage
 *-lock.*
+*.zip
+*.rar
