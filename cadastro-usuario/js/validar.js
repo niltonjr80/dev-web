@@ -127,7 +127,7 @@ function validarSenha(dados) {
     return "fraca";
   } else if (senha.length >= 8 && senha.length < 12 && temLetraMaiuscula) {
     if (e) {
-      help.showMsgError(e.target, "Sua senha esta mais ou menos", "brown");
+      help.showMsgError(e.target, "Senha Moderada", "brown");
       help.updateMeter(meter, e.target.value.length);
     }
     return "moderada";
