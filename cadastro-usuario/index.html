@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <title>Cadastro de Usuário</title>
+  </head>
+
+  <body>
+    <br />
+    <div class="container border" style="max-width: 400px">
+      <div class="row">
+        <div class="col">
+          <h2>Cadastro de Usuário</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <form id="singleForm" action="javascript:void(0);">
+            <div class="mb-3">
+              <label for="inputName" class="form-label"
+                >Primeiro Nome (mínimo 5 letras)</label
+              >
+              <img src="./images/check.png" class="d-none" id="checkNameIcon" />
+              <input
+                type="text"
+                class="form-control"
+                id="inputName"
+                data-associated-element="#checkNameIcon"
+                required
+              />
+              <div id="inputNameHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="inputYear" class="form-label"
+                >Ano de Nascimento</label
+              >
+              <img src="./images/check.png" class="d-none" id="checkYearIcon" />
+              <input
+                type="text"
+                class="form-control"
+                id="inputYear"
+                data-associated-element="#checkYearIcon"
+                required
+              />
+              <div id="inputYearHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email</label>
+              <img
+                src="./images/check.png"
+                class="d-none"
+                id="checkEmailIcon"
+              />
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                aria-describedby="emailHelp"
+                data-associated-element="#checkEmailIcon"
+                required
+              />
+              <div id="inputEmailHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+              <label for="inputPassword" class="form-label">Senha</label>
+              <img
+                src="./images/check.png"
+                class="d-none"
+                id="checkPasswordIcon"
+              />
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                data-associated-element="#checkPasswordIcon"
+                required
+              />
+              <div id="inputPasswordHelp" class="form-text"></div>
+              <meter
+                id="passStrengthMeter"
+                low="11"
+                high="21"
+                min="0"
+                max="30"
+                optimum="30"
+                value="0"
+                style="width: 100%"
+              ></meter>
+              <div id="inputResult" class="form-text"></div>
+            </div>
+            <div class="mb-3 text-center">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="js/listener.js" defer></script>
+    <script type="module" src="js/help.js" defer></script>
+  </body>
+</html>

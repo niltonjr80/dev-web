@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "test": "jest --testEnvironment jsdom",
+    "test:watch": "jest --testEnvironment jsdom --watchAll"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
+    "coverage": "^0.4.1",
+    "jest": "^27.5.1",
+    "prettier": "^3.2.5",
+    "url": "^0.11.3"
+  }
+}
