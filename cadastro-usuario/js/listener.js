@@ -1,9 +1,11 @@
 import * as bora from "./validar.js";
+import { updateMeter } from "./help.js";
 
 const nome = document.querySelector("#inputName");
 const ano = document.querySelector("#inputYear");
 const email = document.querySelector("#inputEmail");
 const senha = document.querySelector("#inputPassword");
+const passStrengthMeter = document.querySelector("#passStrengthMeter");
 
 if (nome) {
   nome.addEventListener("focusout", (e) => {
@@ -24,14 +26,19 @@ if (email) {
 }
 
 if (senha) {
-  senha.addEventListener("focusout", (e) => {
-    const nivel = document.querySelector("#passStrengthMeter");
+  senha.addEventListener("input", (e) => {
+    const qtdCaracteres = e.target.value.length;
     const dados = {
-      level: nivel,
+      meter: passStrengthMeter,
       input: e,
       target: { senha: e.target.value, nome: nome.value, ano: ano.value },
     };
-
-    bora.validarSenha(dados);
+    if (qtdCaracteres > 0 && qtdCaracteres < 6) {
+      senha.addEventListener("focusout", (e) => {
+        bora.validarSenha(dados);
+      });
+    } else {
+      bora.validarSenha(dados);
+    }
   });
 }

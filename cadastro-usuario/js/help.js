@@ -19,4 +19,8 @@ function showMsgError(inputElement, mensagem, cor) {
   }
 }
 
-export { showMsgError };
+function updateMeter(passStrengthMeter, value) {
+  passStrengthMeter.value = value;
+}
+
+export { showMsgError, updateMeter };

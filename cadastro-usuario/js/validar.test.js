@@ -109,7 +109,7 @@ describe("Validando Email", () => {
 describe("Validar Senha", () => {
   test("Só letras", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: { senha: "Asdfasdf", nome: "Nilton", ano: "1980" },
     };
@@ -118,7 +118,7 @@ describe("Validar Senha", () => {
 
   test("menor que 6", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: { senha: "A@1ab", nome: "Nilton", ano: "1980" },
     };
@@ -127,7 +127,7 @@ describe("Validar Senha", () => {
 
   test("maior que 20", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "A@1a2ijasdihi99inv!23",
@@ -140,7 +140,7 @@ describe("Validar Senha", () => {
 
   test("Nome na senha", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "A@1niLtonihi99inv!23",
@@ -153,7 +153,7 @@ describe("Validar Senha", () => {
 
   test("Ano na senha", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "A@1niLt1980i99inv!23",
@@ -166,7 +166,7 @@ describe("Validar Senha", () => {
 
   test("Sem caracteres especiais", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "A1niLt198i99inv23",
@@ -179,7 +179,7 @@ describe("Validar Senha", () => {
 
   test("Não tem letra", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "123456!@#$234567890",
@@ -192,7 +192,7 @@ describe("Validar Senha", () => {
 
   test("Não tem numero", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "asdfg!@#$",
@@ -205,7 +205,7 @@ describe("Validar Senha", () => {
 
   test("Senha fraca", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "!bcd567",
@@ -218,7 +218,7 @@ describe("Validar Senha", () => {
 
   test("Senha moderada", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "!A345678",
@@ -231,7 +231,7 @@ describe("Validar Senha", () => {
 
   test("Senha forte", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "!@CDefgh9012",
@@ -244,7 +244,7 @@ describe("Validar Senha", () => {
 
   test("Quase forte", () => {
     const dados = {
-      level: null,
+      meter: null,
       input: null,
       target: {
         senha: "!Bcde6789012",

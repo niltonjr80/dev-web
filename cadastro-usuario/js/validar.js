@@ -2,6 +2,11 @@ import * as help from "./help.js";
 
 // Função para validar o nome de usuário
 function validarNome(e) {
+  if (!e.target.value) {
+    help.showMsgError(e.target, " ", "");
+    return false;
+  }
+
   const regexNome = /^(?=.{6,}$)[a-zA-Z ]*$/;
 
   if (e.target.value.trim().match(regexNome) == null) {
@@ -14,6 +19,10 @@ function validarNome(e) {
 }
 
 function validarAno(e) {
+  if (!e.target.value) {
+    help.showMsgError(e.target, " ", "");
+    return false;
+  }
   const regexAno = /^(19[0-9]{2}|20[0-1][0-9]|202[0-2])$/;
   const ano = e.target;
   const anoTrimado = ano.value.trim();
@@ -28,6 +37,10 @@ function validarAno(e) {
 }
 
 function validarEmail(e) {
+  if (!e.target.value) {
+    help.showMsgError(e.target, " ", "");
+    return false;
+  }
   const email = e.target.value.trim();
   const regexEmail =
     /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.(?:com|net|org|br|com\.br)$/;
@@ -53,7 +66,12 @@ function validarSenha(dados) {
   // Extrair as propriedades do objeto JSON
   const { senha, nome, ano } = dados.target;
   const e = dados.input;
-  const level = dados.level;
+  const meter = dados.meter;
+  if (!senha) {
+    help.showMsgError(e.target, " ", "");
+    help.updateMeter(meter, 0);
+    return false;
+  }
 
   // Verificar se a senha contém o nome ou o ano de nascimento do usuário
   if (
@@ -66,6 +84,7 @@ function validarSenha(dados) {
         "Senha inválida! Ela não deve conter seu nome ou ano de nascimento",
         "red",
       );
+      help.updateMeter(meter, 0);
     }
     return false;
   }
@@ -74,6 +93,7 @@ function validarSenha(dados) {
   if (senha.length < 6 || senha.length > 20) {
     if (e) {
       help.showMsgError(e.target, "Senha inválida! Mín: 6 e Máx: 20", "red");
+      help.updateMeter(meter, 0);
     }
     return false;
   }
@@ -93,6 +113,7 @@ function validarSenha(dados) {
         "Senha inválida! Obrigatório caractere especial, número e letra",
         "red",
       );
+      help.updateMeter(meter, 0);
     }
     return false;
   }
@@ -100,12 +121,14 @@ function validarSenha(dados) {
   // Verificar o nível de segurança da senha
   if (senha.length < 8) {
     if (e) {
-      help.showMsgError(e.target, "Cuidado! Sua senha é fraca", "red");
+      help.showMsgError(e.target, "Senha fraca", "red");
+      help.updateMeter(meter, e.target.value.length);
     }
     return "fraca";
   } else if (senha.length >= 8 && senha.length < 12 && temLetraMaiuscula) {
     if (e) {
       help.showMsgError(e.target, "Sua senha esta mais ou menos", "brown");
+      help.updateMeter(meter, e.target.value.length);
     }
     return "moderada";
   } else {
@@ -125,15 +148,17 @@ function validarSenha(dados) {
     ) {
       if (e) {
         help.showMsgError(e.target, "Maravilha! Sua senha é forte.", "green");
+        help.updateMeter(meter, e.target.value.length);
       }
       return "forte";
     } else {
       if (e) {
         help.showMsgError(
           e.target,
-          "Quase forte. Adicione mais caracteres especiais, números ou letras",
+          "Quase forte. Adicione mais caracteres especiais, números ou letras maiúsculas",
           "brown",
         );
+        help.updateMeter(meter, e.target.value.length);
       }
       return "moderada";
     }
