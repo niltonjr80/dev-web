@@ -127,7 +127,7 @@ function validarSenha(dados) {
     return "fraca";
   } else if (senha.length >= 8 && senha.length < 12 && temLetraMaiuscula) {
     if (e) {
-      help.showMsgError(e.target, "Senha Moderada", "brown");
+      help.showMsgError(e.target, "Senha moderada", "brown");
       help.updateMeter(meter, e.target.value.length);
     }
     return "moderada";
@@ -147,17 +147,13 @@ function validarSenha(dados) {
       numLetrasMaiusculas > 1
     ) {
       if (e) {
-        help.showMsgError(e.target, "Maravilha! Sua senha é forte.", "green");
+        help.showMsgError(e.target, "Senha forte", "green");
         help.updateMeter(meter, e.target.value.length);
       }
       return "forte";
     } else {
       if (e) {
-        help.showMsgError(
-          e.target,
-          "Quase forte. Adicione mais caracteres especiais, números ou letras maiúsculas",
-          "brown",
-        );
+        help.showMsgError(e.target, "Senha moderada", "brown");
         help.updateMeter(meter, e.target.value.length);
       }
       return "moderada";
