@@ -1,4 +1,4 @@
-# Desenvolvimento Web - Disciplina de Bacharelado em Sistemas de Informação
+# SSC0961 - Desenvolvimento Web e Mobile (2024)
 
 Este repositório contém os materiais relacionados à disciplina de Desenvolvimento Web do Curso de Bacharelado em Sistemas de Informação do Instituto de Ciências Matemáticas e de Computação (ICMC) - USP, localizado em São Carlos, SP.
 
