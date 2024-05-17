@@ -5,6 +5,6 @@ Este repositório contém os materiais relacionados à disciplina de Desenvolvim
 ## Trabalhos
 
 1. [Meu Portfólio](https://niltonjr80.github.io/dev-web/meu-portfolio/)
-2. [My Resume](https://niltonjr80.github.io/dev-web/myresume/)
+2. [My Resume](https://niltonjr80.github.io/dev-web/MyResume/)
 3. [Cadastro de Usuário](https://niltonjr80.github.io/dev-web/cadastro-usuario/)
 4. Selenium
