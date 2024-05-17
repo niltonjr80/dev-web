@@ -1,3 +1,5 @@
+/* dev-web/cadastro-usuario/js/validar.js */
+
 import * as help from "./help.js";
 
 // Função para validar o nome de usuário

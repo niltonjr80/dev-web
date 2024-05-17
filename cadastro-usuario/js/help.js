@@ -1,3 +1,5 @@
+/* dev-web/cadastro-usuario/js/help.js */
+
 function showMsgError(inputElement, mensagem, cor) {
   const helpElement = inputElement.nextElementSibling; // Assume que o elemento de ajuda é o próximo irmão do input
 
@@ -24,7 +26,47 @@ function showMsgError(inputElement, mensagem, cor) {
 }
 
 function updateMeter(passStrengthMeter, value) {
-  passStrengthMeter.value = value;
+  if (value == 0) {
+    passStrengthMeter.classList.add("d-none");
+  } else {
+    passStrengthMeter.classList.remove("d-none");
+    passStrengthMeter.classList.add("d-block");
+    passStrengthMeter.value = value;
+  }
 }
 
-export { showMsgError, updateMeter };
+function atualizarBotaoEnvio(
+  btnEnviar,
+  elemMsgSucesso,
+  nomeValido,
+  anoValido,
+  emailValido,
+  senhaValida,
+) {
+  const formValido = nomeValido && anoValido && emailValido && senhaValida;
+  if (!formValido) {
+    btnEnviar.disabled = true;
+    btnEnviar.classList.remove("btn-primary");
+    btnEnviar.classList.remove("btn-block");
+    btnEnviar.classList.add("btn-outline-secondary");
+    atualizarMsgSucesso(elemMsgSucesso, formValido);
+  } else {
+    btnEnviar.disabled = false;
+    btnEnviar.classList.remove("btn-outline-secondary");
+    btnEnviar.classList.add("btn-primary");
+    btnEnviar.classList.add("btn-lg");
+    btnEnviar.classList.add("btn-block");
+  }
+}
+
+function atualizarMsgSucesso(elemMsgSucesso, formValido) {
+  if (formValido) {
+    elemMsgSucesso.classList.remove("d-none");
+    //msgSucesso.classList.add("d-block");
+  } else {
+    elemMsgSucesso.classList.add("d-none");
+    //msgSucesso.classList.remove("d-block");
+  }
+}
+
+export { showMsgError, updateMeter, atualizarBotaoEnvio, atualizarMsgSucesso };

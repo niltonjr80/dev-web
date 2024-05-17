@@ -4,14 +4,50 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/mystyle.css" rel="stylesheet" />
+
     <title>Cadastro de Usuário</title>
   </head>
 
   <body>
-    <br />
-    <div class="container border" style="max-width: 400px">
+    <div class="container mt-3">
+      <div class="row d-none" id="msgSucesso">
+        <div class="col-5 mx-auto">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="tenor-gif-embed"
+                data-postid="8945007"
+                data-share-method="host"
+                data-aspect-ratio="1.22286"
+                data-width="100%"
+              >
+                <a href="https://tenor.com/view/celebrate-confetti-gif-8945007"
+                  >Celebrate Confetti GIF</a
+                >from
+                <a href="https://tenor.com/search/celebrate-gifs"
+                  >Celebrate GIFs</a
+                >
+              </div>
+              <script
+                type="text/javascript"
+                async
+                src="https://tenor.com/embed.js"
+              ></script>
+            </div>
+            <div
+              class="col-12 mt-3 font-weight-bold mx-auto alert alert-success text-center"
+              role="alert"
+            >
+              Congratulations!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3 border rounded" style="max-width: 400px">
       <div class="row">
-        <div class="col">
+        <div class="col text-center m-4">
           <h2>Cadastro de Usuário</h2>
         </div>
       </div>
@@ -96,11 +132,14 @@
                 optimum="12"
                 value=""
                 style="width: 100%"
+                class="d-none"
               ></meter>
               <div id="inputResult" class="form-text"></div>
             </div>
             <div class="mb-3 text-center">
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="submit" class="btn btn-primary" id="submitButton">
+                Enviar
+              </button>
             </div>
           </form>
         </div>
