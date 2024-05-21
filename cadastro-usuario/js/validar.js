@@ -12,7 +12,7 @@ function validarNome(e) {
   const regexNome = /^(?=.{6,}$)[a-zA-Z ]*$/;
 
   if (e.target.value.trim().match(regexNome) == null) {
-    help.showMsgError(e.target, "Formato de nome inválido", "red");
+    help.showMsgError(e.target, "Nome inválido", "red");
     return false;
   } else {
     help.showMsgError(e.target, "", "");
@@ -56,7 +56,7 @@ function validarEmail(e) {
   }
 
   if (!regexEmail.test(email) || count > 2) {
-    help.showMsgError(e.target, "Email inválido", "red");
+    help.showMsgError(e.target, "Formato de email inválido", "red");
     return false;
   } else {
     help.showMsgError(e.target, "", "");
@@ -81,11 +81,7 @@ function validarSenha(dados) {
     (nome != "" || ano != "")
   ) {
     if (e) {
-      help.showMsgError(
-        e.target,
-        "Senha inválida! Ela não deve conter seu nome ou ano de nascimento",
-        "red",
-      );
+      help.showMsgError(e.target, "Senha inválida", "red");
       help.updateMeter(meter, 0);
     }
     return false;
@@ -94,7 +90,7 @@ function validarSenha(dados) {
   // Verificar comprimento da senha
   if (senha.length < 6 || senha.length > 20) {
     if (e) {
-      help.showMsgError(e.target, "Senha inválida! Mín: 6 e Máx: 20", "red");
+      help.showMsgError(e.target, "Senha inválida", "red");
       help.updateMeter(meter, 0);
     }
     return false;
@@ -110,11 +106,7 @@ function validarSenha(dados) {
 
   if (!temCaractereEspecial || !temNumero || !temLetra) {
     if (e) {
-      help.showMsgError(
-        e.target,
-        "Senha inválida! Obrigatório caractere especial, número e letra",
-        "red",
-      );
+      help.showMsgError(e.target, "Senha inválida", "red");
       help.updateMeter(meter, 0);
     }
     return false;

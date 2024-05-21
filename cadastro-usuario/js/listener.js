@@ -11,51 +11,39 @@ const passStrengthMeter = document.querySelector("#passStrengthMeter");
 const eye = document.querySelector("#eye");
 const btnEnviar = document.querySelector("#submitButton");
 const elemMsgSucesso = document.querySelector("#msgSucesso");
+const elemMsgError = document.querySelector("#msgError");
 
 let nomeValido = false;
 let anoValido = false;
 let emailValido = false;
 let senhaValida = false;
 
+if (btnEnviar) {
+  btnEnviar.addEventListener("click", () => {
+    const formValido = nomeValido && anoValido && emailValido && senhaValida;
+    if (formValido) {
+      help.msgSaveSuccess(elemMsgSucesso, elemMsgError);
+    } else {
+      help.msgSaveError(elemMsgError, elemMsgSucesso);
+    }
+  });
+}
+
 if (nome) {
   nome.addEventListener("focusout", (e) => {
     nomeValido = bora.validarNome(e);
-    help.atualizarBotaoEnvio(
-      btnEnviar,
-      elemMsgSucesso,
-      nomeValido,
-      anoValido,
-      emailValido,
-      senhaValida,
-    );
   });
 }
 
 if (ano) {
   ano.addEventListener("focusout", (e) => {
     anoValido = bora.validarAno(e);
-    help.atualizarBotaoEnvio(
-      btnEnviar,
-      elemMsgSucesso,
-      nomeValido,
-      anoValido,
-      emailValido,
-      senhaValida,
-    );
   });
 }
 
 if (email) {
   email.addEventListener("focusout", (e) => {
     emailValido = bora.validarEmail(e);
-    help.atualizarBotaoEnvio(
-      btnEnviar,
-      elemMsgSucesso,
-      nomeValido,
-      anoValido,
-      emailValido,
-      senhaValida,
-    );
   });
 }
 
@@ -68,14 +56,6 @@ if (senha) {
     };
     if (e.target.value.length > 5) {
       senhaValida = bora.validarSenha(dados);
-      help.atualizarBotaoEnvio(
-        btnEnviar,
-        elemMsgSucesso,
-        nomeValido,
-        anoValido,
-        emailValido,
-        senhaValida,
-      );
     }
   });
 
@@ -88,14 +68,6 @@ if (senha) {
     };
     if (qtdCaracteres < 6) {
       senhaValida = bora.validarSenha(dados);
-      help.atualizarBotaoEnvio(
-        btnEnviar,
-        elemMsgSucesso,
-        nomeValido,
-        anoValido,
-        emailValido,
-        senhaValida,
-      );
     }
   });
 }
@@ -112,19 +84,12 @@ if (eye) {
   });
 }
 
-if (btnEnviar) {
-  btnEnviar.addEventListener("click", () => {
-    const formValido = nomeValido && anoValido && emailValido && senhaValida;
-    help.atualizarMsgSucesso(elemMsgSucesso, formValido);
-  });
-}
-
 // Verificar se o formulário está válido ao carregar a página
-help.atualizarBotaoEnvio(
+/* help.atualizarBotaoEnvio(
   btnEnviar,
   elemMsgSucesso,
   nomeValido,
   anoValido,
   emailValido,
   senhaValida,
-);
+); */

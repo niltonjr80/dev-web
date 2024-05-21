@@ -35,7 +35,7 @@ function updateMeter(passStrengthMeter, value) {
   }
 }
 
-function atualizarBotaoEnvio(
+/* function atualizarBotaoEnvio(
   btnEnviar,
   elemMsgSucesso,
   nomeValido,
@@ -57,16 +57,16 @@ function atualizarBotaoEnvio(
     btnEnviar.classList.add("btn-lg");
     btnEnviar.classList.add("btn-block");
   }
+} */
+
+function msgSaveSuccess(elemMsgSucesso, elemMsgError) {
+  elemMsgSucesso.classList.remove("d-none");
+  elemMsgError.classList.add("d-none");
 }
 
-function atualizarMsgSucesso(elemMsgSucesso, formValido) {
-  if (formValido) {
-    elemMsgSucesso.classList.remove("d-none");
-    //msgSucesso.classList.add("d-block");
-  } else {
-    elemMsgSucesso.classList.add("d-none");
-    //msgSucesso.classList.remove("d-block");
-  }
+function msgSaveError(elemMsgError, elemMsgSucesso) {
+  elemMsgSucesso.classList.add("d-none");
+  elemMsgError.classList.remove("d-none");
 }
 
-export { showMsgError, updateMeter, atualizarBotaoEnvio, atualizarMsgSucesso };
+export { showMsgError, updateMeter, msgSaveError, msgSaveSuccess };
