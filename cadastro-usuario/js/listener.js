@@ -10,7 +10,8 @@ const senha = document.querySelector("#inputPassword");
 const passStrengthMeter = document.querySelector("#passStrengthMeter");
 const eye = document.querySelector("#eye");
 const btnEnviar = document.querySelector("#submitButton");
-const inputResult = document.querySelector("#inputResult");
+const msgErro = document.querySelector("#msgErro");
+const msgSucesso = document.querySelector("#msgSucesso");
 
 let nomeValido = false;
 let anoValido = false;
@@ -21,11 +22,15 @@ if (btnEnviar) {
   btnEnviar.addEventListener("click", () => {
     const formValido = nomeValido && anoValido && emailValido && senhaValida;
     if (formValido) {
-      inputResult.textContent = "Seus dados foram registrados";
-      inputResult.style.color = "green";
+      msgSucesso.textContent = "Seus dados foram registrados";
+      msgSucesso.style.color = "green";
+      msgErro.style.display = "none";
+      msgSucesso.style.display = "";
     } else {
-      inputResult.textContent = "Seus dados não foram registrados";
-      inputResult.style.color = "red";
+      msgErro.textContent = "Seus dados não foram registrados";
+      msgErro.style.color = "red";
+      msgSucesso.style.display = "none";
+      msgErro.style.display = "";
     }
   });
 }
