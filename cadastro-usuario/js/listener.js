@@ -22,12 +22,12 @@ if (btnEnviar) {
   btnEnviar.addEventListener("click", () => {
     const formValido = nomeValido && anoValido && emailValido && senhaValida;
     if (formValido) {
-      msgSucesso.textContent = "Seus dados foram registrados";
+      msgSucesso.textContent = "Seus dados foram registrados!";
       msgSucesso.style.color = "green";
       msgError.style.display = "none";
       msgSucesso.style.display = "";
     } else {
-      msgError.textContent = "Seus dados não foram registrados";
+      msgError.textContent = "Seus dados não foram registrados!";
       msgError.style.color = "red";
       msgSucesso.style.display = "none";
       msgError.style.display = "";
