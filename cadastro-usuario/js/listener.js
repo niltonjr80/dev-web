@@ -10,8 +10,7 @@ const senha = document.querySelector("#inputPassword");
 const passStrengthMeter = document.querySelector("#passStrengthMeter");
 const eye = document.querySelector("#eye");
 const btnEnviar = document.querySelector("#submitButton");
-const elemMsgSucesso = document.querySelector("#msgSucesso");
-const elemMsgError = document.querySelector("#msgError");
+const inputResult = document.querySelector("#inputResult");
 
 let nomeValido = false;
 let anoValido = false;
@@ -22,9 +21,11 @@ if (btnEnviar) {
   btnEnviar.addEventListener("click", () => {
     const formValido = nomeValido && anoValido && emailValido && senhaValida;
     if (formValido) {
-      help.msgSaveSuccess(elemMsgSucesso, elemMsgError);
+      inputResult.textContent = "Seus dados foram registrados";
+      inputResult.style.color = "green";
     } else {
-      help.msgSaveError(elemMsgError, elemMsgSucesso);
+      inputResult.textContent = "Seus dados não foram registrados";
+      inputResult.style.color = "red";
     }
   });
 }
@@ -48,27 +49,13 @@ if (email) {
 }
 
 if (senha) {
-  senha.addEventListener("input", (e) => {
-    const dados = {
-      meter: passStrengthMeter,
-      input: e,
-      target: { senha: e.target.value, nome: nome.value, ano: ano.value },
-    };
-    if (e.target.value.length > 5) {
-      senhaValida = bora.validarSenha(dados);
-    }
-  });
-
   senha.addEventListener("focusout", (e) => {
-    const qtdCaracteres = e.target.value.length;
     const dados = {
       meter: passStrengthMeter,
       input: e,
       target: { senha: e.target.value, nome: nome.value, ano: ano.value },
     };
-    if (qtdCaracteres < 6) {
-      senhaValida = bora.validarSenha(dados);
-    }
+    senhaValida = bora.validarSenha(dados);
   });
 }
 
@@ -83,13 +70,3 @@ if (eye) {
     }
   });
 }
-
-// Verificar se o formulário está válido ao carregar a página
-/* help.atualizarBotaoEnvio(
-  btnEnviar,
-  elemMsgSucesso,
-  nomeValido,
-  anoValido,
-  emailValido,
-  senhaValida,
-); */

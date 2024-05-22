@@ -6,7 +6,6 @@ import * as help from "./help.js";
 function validarNome(e) {
   if (!e.target.value) {
     help.showMsgError(e.target, " ", "");
-    return false;
   }
 
   const regexNome = /^(?=.{6,}$)[a-zA-Z ]*$/;
@@ -25,7 +24,8 @@ function validarAno(e) {
     help.showMsgError(e.target, " ", "");
     return false;
   }
-  const regexAno = /^(19[0-9]{2}|20[0-1][0-9]|202[0-2])$/;
+  const regexAno = /^(19(0[4-9]|[1-9][0-9])|20([0-1][0-9]|20|21|22|23))$/;
+
   const ano = e.target;
   const anoTrimado = ano.value.trim();
 
@@ -45,7 +45,7 @@ function validarEmail(e) {
   }
   const email = e.target.value.trim();
   const regexEmail =
-    /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\.(?:com|net|org|br|com\.br)$/;
+    /^[a-zA-Z0-9._%]+@[a-zA-Z0-9-]+\.(?:com|net|org|br|com\.br)$/;
 
   let count = 0;
 
@@ -76,17 +76,18 @@ function validarSenha(dados) {
   }
 
   // Verificar se a senha contém o nome ou o ano de nascimento do usuário
-  if (
-    (senha.toLowerCase().includes(nome.toLowerCase()) || senha.includes(ano)) &&
-    (nome != "" || ano != "")
-  ) {
-    if (e) {
-      help.showMsgError(e.target, "Senha inválida", "red");
-      help.updateMeter(meter, 0);
+  if (nome && ano) {
+    if (
+      senha.toLowerCase().includes(nome.toLowerCase()) ||
+      senha.includes(ano)
+    ) {
+      if (e) {
+        help.showMsgError(e.target, "Senha inválida", "red");
+        help.updateMeter(meter, 0);
+      }
+      return false;
     }
-    return false;
   }
-
   // Verificar comprimento da senha
   if (senha.length < 6 || senha.length > 20) {
     if (e) {
@@ -106,7 +107,7 @@ function validarSenha(dados) {
 
   if (!temCaractereEspecial || !temNumero || !temLetra) {
     if (e) {
-      help.showMsgError(e.target, "Senha inválida", "red");
+      help.showMsgError(e.target, "Senha inválida", "orange");
       help.updateMeter(meter, 0);
     }
     return false;

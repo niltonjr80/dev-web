@@ -35,38 +35,4 @@ function updateMeter(passStrengthMeter, value) {
   }
 }
 
-/* function atualizarBotaoEnvio(
-  btnEnviar,
-  elemMsgSucesso,
-  nomeValido,
-  anoValido,
-  emailValido,
-  senhaValida,
-) {
-  const formValido = nomeValido && anoValido && emailValido && senhaValida;
-  if (!formValido) {
-    btnEnviar.disabled = true;
-    btnEnviar.classList.remove("btn-primary");
-    btnEnviar.classList.remove("btn-block");
-    btnEnviar.classList.add("btn-outline-secondary");
-    atualizarMsgSucesso(elemMsgSucesso, formValido);
-  } else {
-    btnEnviar.disabled = false;
-    btnEnviar.classList.remove("btn-outline-secondary");
-    btnEnviar.classList.add("btn-primary");
-    btnEnviar.classList.add("btn-lg");
-    btnEnviar.classList.add("btn-block");
-  }
-} */
-
-function msgSaveSuccess(elemMsgSucesso, elemMsgError) {
-  elemMsgSucesso.classList.remove("d-none");
-  elemMsgError.classList.add("d-none");
-}
-
-function msgSaveError(elemMsgError, elemMsgSucesso) {
-  elemMsgSucesso.classList.add("d-none");
-  elemMsgError.classList.remove("d-none");
-}
-
-export { showMsgError, updateMeter, msgSaveError, msgSaveSuccess };
+export { showMsgError, updateMeter };
