@@ -2,7 +2,7 @@
   "id": "ffff698d-ddda-436e-a681-fb42beb6bbf5",
   "version": "2.0",
   "name": "cadastro-usuario-testes-nilton",
-  "url": "https://niltonjr80.github.io/dev-web/cadastro-usuario/",
+  "url": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
   "tests": [{
     "id": "c2b7da6b-e999-4994-bc1b-3b95863ecc53",
     "name": "cadastro-usuario-ct1-1",
@@ -36,7 +36,7 @@
         ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Julian"
+      "value": "Nilton"
     }, {
       "id": "ba51d86e-970d-4786-9774-157a42a8226c",
       "comment": "",
@@ -49,7 +49,7 @@
         ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "1991"
+      "value": "1980"
     }, {
       "id": "5ff47f35-00c4-435a-9a7e-d78b2e4e8b78",
       "comment": "",
@@ -62,7 +62,7 @@
         ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
         ["xpath=//div[3]/input", "xpath:position"]
       ],
-      "value": "jul@usp.br"
+      "value": "npjunior@usp.br"
     }, {
       "id": "f21d827e-c82b-46ae-8c19-963949932879",
       "comment": "",
@@ -143,7 +143,7 @@
         ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "Maria Aparecida Lucinda Ferreiras"
+      "value": "Nilton Palmeira Pacífico Junior"
     }, {
       "id": "6eac635a-7171-43b7-b369-a13680b29aeb",
       "comment": "",
@@ -156,7 +156,7 @@
         ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "1991"
+      "value": "1904"
     }, {
       "id": "89d30d2b-84c3-4bd4-95b1-4c4713456510",
       "comment": "",
@@ -169,7 +169,7 @@
         ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
         ["xpath=//div[3]/input", "xpath:position"]
       ],
-      "value": "malf@usp.br"
+      "value": "niltonjr@gmail.com"
     }, {
       "id": "cdcc31c4-9509-4bd2-9fe3-e476226029e6",
       "comment": "",
@@ -221,7 +221,7 @@
         ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
         ["xpath=//div[4]/div[2]", "xpath:position"]
       ],
-      "value": "Parabéns seus dados foram registrados :)"
+      "value": "Seus dados foram registrados"
     }]
   }, {
     "id": "352b14fb-227d-48b1-afe0-83be432fb657",
@@ -313,7 +313,7 @@
       "id": "c84c516c-9c4a-438b-b8c8-f0e5bcd9c82a",
       "comment": "",
       "command": "assertText",
-      "target": "id=inputName",
+      "target": "id=inputNameHelp",
       "targets": [
         ["id=inputName", "id"],
         ["css=#inputName", "css:finder"],
@@ -347,11 +347,11 @@
         ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
         ["xpath=//div[4]/div[2]", "xpath:position"]
       ],
-      "value": "Cadastro inválido"
+      "value": "Seus dados não foram registrados"
     }]
   }, {
     "id": "84d791eb-0e46-4473-87ef-008a33fe8e3a",
-    "name": "cadastro-usuario-ct2-2",
+    "name": "cadastro-usuario-ct1-3",
     "commands": [{
       "id": "6931d057-7091-4e96-9e8b-24be80d7676b",
       "comment": "",
@@ -382,7 +382,7 @@
         ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "MariaAparecidaLucindadeFerreira"
+      "value": "NiltonPalmeiraPacificoJunior"
     }, {
       "id": "4708c0f9-b84b-434e-9dcc-d04c3b2a35fc",
       "comment": "",
@@ -395,7 +395,7 @@
         ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
         ["xpath=//div[2]/input", "xpath:position"]
       ],
-      "value": "1991"
+      "value": "2023"
     }, {
       "id": "61568dfb-fe38-403f-8911-3519944a9323",
       "comment": "",
@@ -408,7 +408,7 @@
         ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
         ["xpath=//div[3]/input", "xpath:position"]
       ],
-      "value": "maria@usp.br"
+      "value": "nilton.jr@hotmail.com.br"
     }, {
       "id": "e3ccf273-4d38-4404-a885-7de0306302dd",
       "comment": "",
@@ -460,11 +460,11 @@
         ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
         ["xpath=//div[4]/div[2]", "xpath:position"]
       ],
-      "value": "Cadastro inválido"
+      "value": "Seus dados foram registrados"
     }]
   }, {
     "id": "e9a2a694-c2bd-45c8-a916-029ad3096ec9",
-    "name": "cadastro-usuario-ct2-3",
+    "name": "cadastro-usuario-ct2-2",
     "commands": [{
       "id": "ef2a1254-3949-458c-94c6-fe4634132dcd",
       "comment": "",
@@ -549,6 +549,19 @@
       ],
       "value": ""
     }, {
+      "id": "8ba334bc-3c4a-43d6-bcc7-e205bedaadc3",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputNameHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Nome inválido"
+    }, {
       "id": "c85465b9-86a8-40f0-9b1d-81496035f842",
       "comment": "",
       "command": "assertText",
@@ -573,11 +586,11 @@
         ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
         ["xpath=//div[4]/div[2]", "xpath:position"]
       ],
-      "value": "Cadastro inválido"
+      "value": "Seus dados não foram registrados"
     }]
   }, {
     "id": "005822bc-5256-4603-80bb-cd0faf2b718a",
-    "name": "cadastro-usuario-ct32-1",
+    "name": "cadastro-usuario-ct16",
     "commands": [{
       "id": "5aca1a36-c063-4a1d-95a9-87a3fa8f49cc",
       "comment": "",
@@ -634,7 +647,7 @@
         ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
         ["xpath=//div[3]/input", "xpath:position"]
       ],
-      "value": "mariausp.br"
+      "value": "maria++@usp.br"
     }, {
       "id": "9bacef25-4f80-48ab-9afa-2cddb6105d1b",
       "comment": "",
@@ -672,7 +685,7 @@
         ["xpath=//form[@id='singleForm']", "xpath:attributes"],
         ["xpath=//form", "xpath:position"]
       ],
-      "value": "Ano Inválido!"
+      "value": "Ano inválido"
     }, {
       "id": "ee8c6227-a1ee-409a-a902-5d86cdaa60bb",
       "comment": "",
@@ -685,7 +698,7 @@
         ["xpath=//form[@id='singleForm']/div[3]/div", "xpath:idRelative"],
         ["xpath=//form/div[3]/div", "xpath:position"]
       ],
-      "value": "Endereço de e-mail incorreto!"
+      "value": "Formato de email inválido"
     }, {
       "id": "73920844-8c35-4c5a-b18d-6719e246590d",
       "comment": "",
@@ -698,7 +711,7 @@
         ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
         ["xpath=//form/div[4]/div", "xpath:position"]
       ],
-      "value": "Senha inválida!"
+      "value": "Senha inválida"
     }, {
       "id": "d1057d9a-86da-4f99-b9b9-7e555605ab5c",
       "comment": "",
@@ -711,16 +724,3018 @@
         ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
         ["xpath=//div[4]/div[2]", "xpath:position"]
       ],
-      "value": "Seus dados não foram registrados :("
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "9f270ddc-43c7-40fa-9232-2a49b0e22922",
+    "name": "cadastro-usuario-ct3-1",
+    "commands": [{
+      "id": "0cbfd582-46ea-415f-bfc1-078162c0cb82",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62ad9922-71c4-4093-8107-f59b0bc1674f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "68cdbd2c-8e06-47b0-ad5e-f4429603f37f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "a6e77cc1-3ff6-4338-bb58-acf02e5b1e92",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1903"
+    }, {
+      "id": "873fe203-da1c-4417-8c18-e30c62ce8480",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@usp.br"
+    }, {
+      "id": "4c15a6ad-cacc-4c50-90db-575122feed6d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "2fbbb4d9-4f3e-4ab9-ac4e-38a5efb9b5e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4594967-235d-4c4d-8008-24c0f0723fe0",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputYearHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Ano inválido"
+    }, {
+      "id": "083e6bc8-0fb7-4c87-a80a-4555ba93b610",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "dc36a008-e84d-4a2c-a61d-eed712824f7b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "e83b3b5d-1ec0-4e5f-909a-db60c0ac2b0a",
+    "name": "cadastro-usuario-ct3-2",
+    "commands": [{
+      "id": "2f128a15-d03c-443f-bc23-5501591246a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aab3c45d-8234-4f56-848b-6d07629a0d72",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "cdb55039-db02-4cd3-b2e0-25d8e7c5129b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "c0629c20-e8ff-448b-a7a5-39e846dfd078",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2024"
+    }, {
+      "id": "12732573-6815-4d27-9dae-7c945d9e39fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@usp.br"
+    }, {
+      "id": "da2dd583-6fdc-4e2c-8064-4322ac9e35c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "867f0d28-c008-45bf-b9c7-ae50d13a020e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d931516-4e90-42c7-ae9d-010c3344b8c7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "03abb2f8-a814-4bf4-b7e9-d40e09edc426",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "21819634-702e-4733-bba1-d18cf7f6ab55",
+    "name": "cadastro-usuario-ct2-3",
+    "commands": [{
+      "id": "1972fd62-ef37-4534-a2b5-48675b357041",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5d562a7-2948-4b06-9322-1fe78d838fce",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "3b7d4a7c-d446-481f-b2b1-4437f2cb78eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  NILTON_"
+    }, {
+      "id": "90e4d3b6-35dc-4911-a5fc-adaa15da5081",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1991"
+    }, {
+      "id": "9f876407-59bf-4448-84c3-969d89aabb66",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "maria@usp.br"
+    }, {
+      "id": "9a098ec7-5802-4c5e-8ea7-d992587b0796",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "24ac395b-b186-43de-9185-db1032b6d1e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b48d3369-268a-4aad-94fc-243a999ca18b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputNameHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Nome inválido"
+    }, {
+      "id": "f3d77363-e2d3-46ce-b315-18015b66f493",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "4261bb62-ca8a-424b-81c9-12ea5dabf80e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "22ab906b-4a4f-4dd0-900f-c3c44de073e8",
+    "name": "cadastro-usuario-ct4-1",
+    "commands": [{
+      "id": "77d6ced2-711c-4bfe-a256-f04f6a514d02",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6bc4296-8927-49c8-97e2-c71b63b74d5e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "b31eb3a9-33f9-4d75-a94e-21c9a53d043a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "1da987d1-cae4-42f3-978b-9e5925247616",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "c45bdf88-38f8-4bf9-9f89-65a7457ab4d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior++@usp.br"
+    }, {
+      "id": "3be0c44b-b486-4875-b277-4d00c5b8b9e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "4d979b57-a3e6-45c1-8807-5fd5dd8a57aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "985f8047-5368-4062-8462-e4b4cfc22096",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "8fb0081a-b34b-4692-8792-bdfdc42e5545",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "2d2d825b-720b-4b54-b8f4-b96c670c3e71",
+    "name": "cadastro-usuario-ct4-2",
+    "commands": [{
+      "id": "d734de47-e163-46a9-9771-cfd5c67bb391",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "016efd82-cd20-4820-9d14-9b67790abb7f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "ee4b3668-a76e-405a-a79a-eb81e8f8a5be",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "470a5915-ecc9-4113-a80b-deaf837edf8a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "634c07f1-9268-45ca-9c6e-d6c23e3ed293",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.comm"
+    }, {
+      "id": "0c4c4b49-8847-43cb-a34d-d9c8f641d8be",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "49343f55-9756-46da-826f-d4f8f6efd68d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee12a0e9-f157-46af-8ae4-ca2ee4ea6b68",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "573db374-81b0-413e-b867-2073e4eb2bb1",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "5a542341-7deb-438b-8aca-bd7b9b8b642f",
+    "name": "cadastro-usuario-ct4-4",
+    "commands": [{
+      "id": "8c7ae184-a3ff-4d94-9bf3-ce735f6b6a9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d2288c6-40b5-461a-911f-733226d2482e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "3476c23a-232b-405a-bc15-3464cb499730",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "5b7bdd8f-10ad-41b0-b2da-4579670e82cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "1b9178b1-5d17-4cfe-a4a1-2444b36bb270",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com.."
+    }, {
+      "id": "8791a3e7-2d68-4f28-b247-c58f12c63314",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "9c8ee3fa-dd91-47d0-bf38-22d1d3e20229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c11bac4e-8502-404d-b617-79221861b556",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "60c14ccb-d42b-48da-a2a5-904aa9ea921c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "5dde49e8-aef8-46d0-93b1-e17d84289c39",
+    "name": "cadastro-usuario-ct4-3",
+    "commands": [{
+      "id": "798931f4-2367-4d36-9e61-f5a5d1fa0bf5",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0996eda-c843-42dc-bb6f-94987d235bf5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "691b92b9-c6f5-45f1-ae6e-b1a0b832382d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "  Nilton"
+    }, {
+      "id": "5b861d99-8a0c-49a5-aac4-f5e850eac3ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "ffbade6a-a034-4b51-b528-318b6a11a200",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com..br"
+    }, {
+      "id": "4cffc4a5-079c-49bf-a45d-1e34bdfc5172",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "#@49%No74"
+    }, {
+      "id": "15000dc1-4d03-4879-8c07-ac3c168390f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a117181-e429-41cd-be7d-667ba222d82f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "88e0e529-c9b8-4f8b-a8f5-27544906fb7b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "c592f53a-a5af-4e9f-8d08-28e3f72d1b52",
+    "name": "cadastro-usuario-ct5-1",
+    "commands": [{
+      "id": "6bc89604-367a-406e-90ab-42717ab5c863",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9055670e-b4b8-4212-971d-2527bef39fd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "2ee18f16-83b4-4633-9b6e-aabf916e35f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "e84a80cf-9ea5-4975-af80-3bac229f5258",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "c6e05fd4-0b23-4adc-9492-f433666c33f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "aB3#5"
+    }, {
+      "id": "58e62675-3f40-4f7a-a815-db6683e1b100",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "188d7489-d45b-4819-9602-8711942bbc3d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "c66761d4-be98-4579-b0d6-331cd5689521",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "91db2526-267e-40f5-aa4e-1d4739bb0b61",
+    "name": "cadastro-usuario-ct5-2",
+    "commands": [{
+      "id": "789671be-efdc-490e-b70b-e1e477eea165",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90b6557f-2e2a-43ee-be6b-04439a109f49",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "b438ff15-71bd-43cc-a114-1758ad27185f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "4af5094a-819e-4763-ac00-4ba8f99a9a6e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "268f0082-bf7a-49e0-932c-a65a48571cb9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfg6"
+    }, {
+      "id": "6b3ef8bd-0bda-4205-b994-dd166e0bd2d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d757a7-71e3-423a-a18b-60f93b562171",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "0bc3fbf3-0dcb-485e-bc8d-5488fff3bf8c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "79a97395-e98e-4244-8f61-4d34d401380e",
+    "name": "cadastro-usuario-ct5-3",
+    "commands": [{
+      "id": "9cacddb5-27b5-431d-9f61-e5d0d94e2817",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d37194d5-6387-4253-a9dc-5d713b2def22",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "d1e65f92-a475-4925-ba36-8ddf54ed77e7",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "83734d9f-c8a3-4114-a434-7965779f1bdc",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "ae876676-b8bc-48e0-af0e-fe5806ba15f2",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63153040-5d02-4c49-bb96-129d8a1ca642",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27283289-c27c-41b4-8c38-f0c88eb3542c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "32b980dd-89c0-40c2-adc0-badb6738be2d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "5493cc0d-09a1-4490-b033-12b3717f24b5",
+    "name": "cadastro-usuario-ct5-4",
+    "commands": [{
+      "id": "fe73d123-05c0-4039-807e-4f03c5278226",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e75fb31-a772-48df-b874-ec9024d221e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "2236a665-6c04-407a-b3f4-1dd4778b8e67",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "231f0c35-327f-4177-b280-f9fd9fcf93d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "5dd15e0c-ea79-4100-b3c8-b5de8cb6a088",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfgASDFG12345!@#$%&"
+    }, {
+      "id": "4cc26773-9a99-43ed-982b-f0a98a85856c",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49b49d6-18e7-4f33-b400-7fd5a4961756",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "88f7c37d-df67-4694-899b-9d382b94f046",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "5538d4a8-64bf-498a-bfba-ab456bed6e2e",
+    "name": "cadastro-usuario-ct5-5",
+    "commands": [{
+      "id": "4f8ae431-b016-4d5b-9453-86d75c9d7b74",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af8dbd0-5b6d-470e-98ec-c904ed93a566",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "6271e5ad-5af4-4e76-afa2-2a46ea3aca81",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "913084d9-4a1d-4703-b893-55d6180432e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "4d3d3fd3-d785-4d0c-9f4c-11d9bf898c17",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfASDF1234"
+    }, {
+      "id": "5aac954a-0685-40df-b62a-6d0a93d3e97d",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b04aca1e-baa7-41f4-9048-57e0b998e3a4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "a43e37e3-96c3-40a0-8964-513c537e8118",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "9cef12f6-170a-47c6-9271-34c707a0aac1",
+    "name": "cadastro-usuario-ct5-6",
+    "commands": [{
+      "id": "003b8cf0-c72f-4d06-bfb0-d5c8034aad0e",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35e07973-cad8-4c13-903e-fe323eeaa185",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "04729509-248e-4033-ad66-9d682870a12b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "c6c1ccd2-a5de-4203-ad89-9e11b8676c5a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "6283cbbc-46a4-4aad-8164-640ea0982570",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfg#"
+    }, {
+      "id": "dae51cbd-1719-474e-97b3-0cfe734f810e",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64454b07-805d-4f6f-9a4d-0efdce03ba82",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "f52af73e-f1f3-4423-b88a-aa8bb966b808",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "6a974852-297b-419f-ab96-d43ebdfe4995",
+    "name": "cadastro-usuario-ct6",
+    "commands": [{
+      "id": "18b2cc41-6b66-44e2-a7d7-b5dcf04c101b",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5662f485-0160-4ac7-94d8-f5258163d4be",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton2"
+    }, {
+      "id": "6ec3f515-7698-4b07-9fc9-b7d23ad4d365",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1903"
+    }, {
+      "id": "f3858b36-be31-439c-b14a-b55cee40b68c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "04ece998-7eca-4cc9-bd09-78c30b0e063f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorA2@"
+    }, {
+      "id": "3d8b1172-011f-4b95-8831-7885841271e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50273352-681d-4c73-b26c-becfd4460686",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Fraca"
+    }, {
+      "id": "29e9176a-c134-4125-b4fa-eaf3f67d7e1f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "f2d27ecc-a69e-446d-be29-15d4d718c8a9",
+    "name": "cadastro-usuario-ct8",
+    "commands": [{
+      "id": "7af471bf-71d8-466e-81fa-1550bfd5573a",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db0f3b18-0012-4f40-91dc-b04cceb636dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton_Jr2"
+    }, {
+      "id": "9ba461e5-97cb-4249-bb44-fecbe803f8d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "94d4fe4f-46fc-4c28-9905-6e496e50c88e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@usp.br"
+    }, {
+      "id": "2211c0e9-4b48-4e22-8a9d-fac49f75d5c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorAA22"
+    }, {
+      "id": "d2a83a31-a599-42df-bc9e-691bd521a546",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a66281-8010-4c4b-a570-3b5bb84bbb2f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputNameHelp",
+      "targets": [],
+      "value": "${inputNameHelp}"
+    }, {
+      "id": "7378e9d7-ee24-4408-9052-2627a1c65229",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputYearHelp",
+      "targets": [],
+      "value": "${inputYearHelp}"
+    }, {
+      "id": "5b28291c-f7ba-4edb-95bc-84d5a0a8f54b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputEmailHelp",
+      "targets": [],
+      "value": "${inputEmailHelp}"
+    }, {
+      "id": "4c1799d5-4b0e-45f9-bede-a93d0346b76b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputPasswordHelp",
+      "targets": [],
+      "value": "${inputPasswordHelp}"
+    }, {
+      "id": "7f9cc261-53c2-4c8d-89f0-4102c8fc65bf",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputResult",
+      "targets": [],
+      "value": "${inputResult}"
+    }, {
+      "id": "ffe26a9a-39a1-4442-8924-b09a85f47c77",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputNameHelp}",
+      "targets": [],
+      "value": "Nome inválido"
+    }, {
+      "id": "21ede8d0-4d08-4dca-8b47-fe072548326e",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputYearHelp}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9399c0e5-dd5f-4053-b1c0-07b0eab22887",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputEmailHelp}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1b0496-9ece-4e9e-8a75-67acbd8320da",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputPasswordHelp}",
+      "targets": [],
+      "value": "Senha inválida"
+    }, {
+      "id": "7c44a8b0-1af9-43e1-b77b-5aeb2a367295",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputResult}",
+      "targets": [],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "95134d90-70bb-44c1-ba9b-ca5062703085",
+    "name": "cadastro-usuario-ct7",
+    "commands": [{
+      "id": "70a676e4-8426-48fc-ba18-4d9acd43a1f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde7ff3c-7f59-4fa6-938a-606365ff3abf",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton2"
+    }, {
+      "id": "026533e3-68b9-435e-a0b8-4249eacb695d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "174c3597-c5d9-4aee-8677-29dca64524aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.comm"
+    }, {
+      "id": "a7d4de47-2007-49ab-b105-33fd2cceb485",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorA2@!"
+    }, {
+      "id": "b5c20b6e-d29d-4a76-ab3b-f22a9d45e275",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "970f971d-21d5-4496-9a1b-06877686f919",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "d22f4d7a-9685-4a6a-875e-767b849a5dfa",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "2f42843a-54f2-4355-adb7-377d3fc82922",
+    "name": "cadastro-usuario-ct9",
+    "commands": [{
+      "id": "331b16ea-409c-4be0-b9ad-676ff2031f73",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b00ea5a4-42bf-4f95-b12d-a6923408022b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ze Pelé"
+    }, {
+      "id": "ef2c9cc0-d28a-4a99-bf3f-0077b8f613a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1903"
+    }, {
+      "id": "47cdaeb2-6f46-4f02-ae41-8d5b02320f67",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior_2@teste.br?"
+    }, {
+      "id": "10568b17-dbf1-43cd-8534-626e40328462",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorA2@!"
+    }, {
+      "id": "d4220b34-1ab2-469b-b643-27a2079760d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a3317f6-e48a-45d9-aca6-5003dc2c6496",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputNameHelp",
+      "targets": [],
+      "value": "${inputNameHelp}"
+    }, {
+      "id": "f3df92ff-4be2-4f51-86bf-e497f51cc1a5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputYearHelp",
+      "targets": [],
+      "value": "${inputYearHelp}"
+    }, {
+      "id": "bb9eca0f-5b3a-44f4-b647-e0cfd016a0bc",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputEmailHelp",
+      "targets": [],
+      "value": "${inputEmailHelp}"
+    }, {
+      "id": "8cb01ce9-953c-44ab-989c-85fa0eec1d49",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputPasswordHelp",
+      "targets": [],
+      "value": "${inputPasswordHelp}"
+    }, {
+      "id": "863f0321-5109-4beb-a92e-8866c8f25843",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#inputResult",
+      "targets": [],
+      "value": "${inputResult}"
+    }, {
+      "id": "82061a46-05f8-4de3-ae76-63f0c78bf38e",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputYearHelp}",
+      "targets": [],
+      "value": "Ano inválido"
+    }, {
+      "id": "20ec26a6-eaa7-430a-9a6a-350fbd888c8e",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputEmailHelp}",
+      "targets": [],
+      "value": "Formato de email inválido"
+    }, {
+      "id": "899f26c2-9cdb-408a-b08f-0f4a47744fd1",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputPasswordHelp}",
+      "targets": [],
+      "value": "Senha Moderada"
+    }, {
+      "id": "a0296478-b324-4764-a363-555aa79c7ec1",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputResult}",
+      "targets": [],
+      "value": "Seus dados não foram registrados"
+    }, {
+      "id": "63152e85-ecdf-4d71-8189-0cc27d3eb181",
+      "comment": "",
+      "command": "assert",
+      "target": "${inputNameHelp}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "113c345e-90b5-40f2-93c4-8e63b732c0fc",
+    "name": "cadastro-usuario-ct10",
+    "commands": [{
+      "id": "2aea905f-ebfd-496c-acd9-3d71025a41f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76c88af9-ce73-45af-819f-2d3aea869f42",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton Jr"
+    }, {
+      "id": "5eed6c29-69a4-4f0a-8137-6475ce932f67",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1900"
+    }, {
+      "id": "c275f443-fcdf-4bb6-9703-0f786fbd62dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@usp.br"
+    }, {
+      "id": "596f6709-6820-4026-bf62-8e881e98f52a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfg1234567890!@#$%678901"
+    }, {
+      "id": "7b5e0df2-ca91-45aa-8317-65b91473f19d",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2cb8be-c640-436c-becb-fea28464d582",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "bbe7a82f-db2a-49d3-a6c4-1a7dfe48d9c4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }, {
+      "id": "c415ed6a-a688-431f-9041-84667f6f9bc2",
+      "comment": "",
+      "command": "assert",
+      "target": "id=inputNameHelp",
+      "targets": [],
+      "value": "null"
+    }]
+  }, {
+    "id": "04b11578-cfd2-4c02-9879-2a786357d7a4",
+    "name": "cadastro-usuario-ct11",
+    "commands": [{
+      "id": "426c8b06-827e-438c-8a3d-01768e0deea0",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3ff2e6c-05c1-42df-bfce-45bc3e7ca561",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton Jr"
+    }, {
+      "id": "5d782be4-f3aa-4cc2-850e-15b84f94943e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "f18e6676-e177-4db4-9dad-8b9c000f47c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@usp2.bs.com.br"
+    }, {
+      "id": "524302c2-37aa-4e35-9706-9e6010b60302",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdfg1234567890!@#$%678901"
+    }, {
+      "id": "500a7607-c734-4126-bcff-304be12f7705",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadac2ba-a27f-46ff-90d0-26fcbfaabbb6",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "90b7bab6-095a-4077-a180-774e89b319e7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "48f2a6a6-1fba-4e3b-9e44-3aaca5ad2f35",
+    "name": "cadastro-usuario-ct12",
+    "commands": [{
+      "id": "b87f03e7-f6c1-40f0-8206-2060265b6fab",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd8e8dca-0350-48c2-83f6-3b2e442bc565",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton Jr"
+    }, {
+      "id": "6077e13b-10cc-4b11-aff8-af863676a163",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "2238050d-a03e-409a-baf1-2f95e65ffd16",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@com.com.br"
+    }, {
+      "id": "b9c1d97f-487e-4fcb-96b7-f6fd06029ebf",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Amor222"
+    }, {
+      "id": "517a4119-2c5d-4d86-afa6-8dc8267d32b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a51d075e-e6d2-436e-b5ea-027b4fe45956",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "459ffc84-bd97-43ad-88bd-2f4c26232db5",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "bdaf07fb-0e13-4ed6-a6fa-64c68a37de17",
+    "name": "cadastro-usuario-ct1-4",
+    "commands": [{
+      "id": "df299f5d-1ec8-4a41-87ff-c1a26f22bf2e",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9aeb566-85b7-4c67-a6b6-5279037180be",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Cadastro de Usuário')]", "xpath:innerText"]
+      ],
+      "value": "Cadastro de Usuário"
+    }, {
+      "id": "73dd1c35-a5d7-4cdd-a7c2-cf435cb6353c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ana Banana"
+    }, {
+      "id": "c82253f0-27ed-4bb2-a6f7-2ca6c6a1c796",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2022"
+    }, {
+      "id": "155a6c84-6089-4be0-b7c7-9084664465d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ana.banana@hotmail.com.br"
+    }, {
+      "id": "52e5fe4e-99b0-4d97-90d2-37b218e26272",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "aaaBBB333@@@?"
+    }, {
+      "id": "7ea3823e-2608-479e-aebf-dc46ebbabfa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c52d012-596a-4d83-9f2a-f7fd4a41adc9",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Forte"
+    }, {
+      "id": "4be8abab-0726-4a6b-a164-2219941f159d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados foram registrados"
+    }]
+  }, {
+    "id": "4c8b2c89-aa99-485a-b2cc-3fa27e3b0ce3",
+    "name": "cadastro-usuario-ct5-7",
+    "commands": [{
+      "id": "eb426841-5f0e-4b6b-bebc-d93c6c923536",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc9a7b69-7189-4b28-9da3-c55f2ef040f1",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "b8480dbc-f200-48ee-8fc7-d81c99a9d0c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "eb6b0531-612c-480b-bd71-3dd12deee9cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "90d84629-a041-434f-9ce0-14853aa7591c",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "1234#$%"
+    }, {
+      "id": "b7e67157-58d1-4aab-b271-916dd50f20c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d242224-19fd-4aa8-bb4d-6ea0cf16756d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "1d1b6d97-5d22-4be4-bb63-9437005873bd",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "a53f50a3-5693-40f1-81ee-4f9754262991",
+    "name": "cadastro-usuario-ct5-8",
+    "commands": [{
+      "id": "a1351424-55c4-4226-aa94-244af3ccb0a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6faafe2-2054-46ef-b99d-0e13f2f06756",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "7c29ce45-0cae-4bc9-8b23-932f58d5c47a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "78fe4e75-1aba-45b2-93a9-217290b5860a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "ad52fd18-3dc8-44c1-b5c4-602b9e871b89",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "a1#Nilton"
+    }, {
+      "id": "27ae0dda-b211-4219-9174-524fb9757e86",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ded611f-381b-4b5e-be3a-b6f58b783e51",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "1afb2369-67b0-4747-9e88-4f62d0bfb63e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "0d6dbb05-0542-4129-9cc5-1cf8abaabc1d",
+    "name": "cadastro-usuario-ct5-9",
+    "commands": [{
+      "id": "77046424-b752-468e-adfe-06547a8d2422",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fc4f5fb-8af7-4cfe-85b2-c12b547642e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilton"
+    }, {
+      "id": "9302d6b5-24ea-4161-9bca-897afcef0859",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "0b9c5381-2bd6-44c9-a0a6-563bc8f9d1b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@gmail.com"
+    }, {
+      "id": "348232bc-0e89-41ae-900b-9403282da2e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "a1#1980Nilt0n"
+    }, {
+      "id": "fe63b4c6-9467-4b00-9f52-336990e78bfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe2d3b65-130e-4988-adfa-7fb6a71d5901",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "94dd4843-685e-4258-982a-746f6cac615b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }, {
+      "id": "ee998efa-6e61-416c-bc7e-1686eaace6d5",
+      "comment": "",
+      "command": "assert",
+      "target": "id=inputNameHelp",
+      "targets": [],
+      "value": "null"
+    }]
+  }, {
+    "id": "6a3fe01d-7689-46b8-8ef6-80c2ebf41ed9",
+    "name": "cadastro-usuario-ct13",
+    "commands": [{
+      "id": "6d45b5c3-fd39-4d1b-a3ff-8c7da243a132",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4fec43a-846f-4808-81b3-c09e15d2e928",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilt@n"
+    }, {
+      "id": "878f03eb-2ae9-4b57-8e00-86584ae6ba6e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1980"
+    }, {
+      "id": "d4819a13-fe48-4f90-82a4-f2f4811385ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@br@sil.com"
+    }, {
+      "id": "8a6eeefb-21dc-4575-9005-cca6e6952b47",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorAA22!!"
+    }, {
+      "id": "b4f30b95-34c2-4621-9972-4ca7f1c44964",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fca5e07-393c-4db8-9610-a0f6c51372d9",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Moderada"
+    }, {
+      "id": "aa811d9e-7f5b-437a-a91a-2b6959f414cc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }]
+  }, {
+    "id": "18ee18f1-0eb8-4b8b-8707-c2aaf80e0814",
+    "name": "cadastro-usuario-ct14",
+    "commands": [{
+      "id": "289090b7-967d-4da0-9c75-58219dfd7c08",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ed3d365-28de-4e89-98c8-165880992f67",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nilto"
+    }, {
+      "id": "3ec31548-dbfa-4705-bc39-b9c6bac5d92f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9999"
+    }, {
+      "id": "f1a8ab99-4346-41c4-bf38-d199a960a59d",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior2001@outlook.com.br"
+    }, {
+      "id": "fab5f13e-ef87-4a99-a0fd-12a7b956e163",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "asdf1234"
+    }, {
+      "id": "c232e3c6-3cd8-49a1-b9af-2b48e2b99c6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3628bfe0-06c8-4340-972e-33f10788b518",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha inválida"
+    }, {
+      "id": "81bd7a9c-9f8f-44c4-8f9d-808760afa72f",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
+    }, {
+      "id": "0cbe9899-c475-4d34-94a9-764a8ef0e7db",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputEmailHelp",
+      "targets": [
+        ["id=inputEmailHelp", "id"],
+        ["css=#inputEmailHelp", "css:finder"],
+        ["xpath=//div[@id='inputEmailHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div", "xpath:position"]
+      ],
+      "value": "\"\""
+    }]
+  }, {
+    "id": "5eb3720b-3741-402e-b380-685a47e7f3b3",
+    "name": "cadastro-usuario-ct15",
+    "commands": [{
+      "id": "bb03b24e-bce8-45bb-ae57-21b2e809075e",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98948824-775c-4775-b8af-3d9964f78d5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputName",
+      "targets": [
+        ["id=inputName", "id"],
+        ["css=#inputName", "css:finder"],
+        ["xpath=//input[@id='inputName']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nil"
+    }, {
+      "id": "25fc56ec-25e3-443a-872d-0df2d23c23ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputYear",
+      "targets": [
+        ["id=inputYear", "id"],
+        ["css=#inputYear", "css:finder"],
+        ["xpath=//input[@id='inputYear']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1903"
+    }, {
+      "id": "b81c09ec-759c-442c-bc3e-4b57ea297221",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "npjunior@com.gmail"
+    }, {
+      "id": "fcb73adf-1b5a-43c9-b471-3e6c75b6095f",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "amorAA22!!@1234"
+    }, {
+      "id": "df58132b-7b78-4ef0-9fef-0a2f1f4d905a",
+      "comment": "",
+      "command": "click",
+      "target": "id=botao",
+      "targets": [
+        ["id=botao", "id"],
+        ["css=#botao", "css:finder"],
+        ["xpath=//button[@id='botao']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ecee91f-0476-4f0d-b2f6-8e1d4906250d",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputPasswordHelp",
+      "targets": [
+        ["id=inputPasswordHelp", "id"],
+        ["css=#inputPasswordHelp", "css:finder"],
+        ["xpath=//div[@id='inputPasswordHelp']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div", "xpath:position"]
+      ],
+      "value": "Senha Forte"
+    }, {
+      "id": "cd648f57-2b1c-4ab9-9f48-1a8c621c536e",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=inputResult",
+      "targets": [
+        ["id=inputResult", "id"],
+        ["css=#inputResult", "css:finder"],
+        ["xpath=//div[@id='inputResult']", "xpath:attributes"],
+        ["xpath=//form[@id='singleForm']/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": "Seus dados não foram registrados"
     }]
   }],
   "suites": [{
     "id": "29510802-ed21-410e-b585-c4ac8ee9d486",
-    "name": "suite-cadastro-usuario",
+    "name": "form Pedro",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["c2b7da6b-e999-4994-bc1b-3b95863ecc53"]
+    "tests": ["c2b7da6b-e999-4994-bc1b-3b95863ecc53", "422e3d5d-47cb-48f5-a3bd-8ab17359e07d", "84d791eb-0e46-4473-87ef-008a33fe8e3a", "352b14fb-227d-48b1-afe0-83be432fb657", "e9a2a694-c2bd-45c8-a916-029ad3096ec9", "9f270ddc-43c7-40fa-9232-2a49b0e22922", "e83b3b5d-1ec0-4e5f-909a-db60c0ac2b0a", "005822bc-5256-4603-80bb-cd0faf2b718a"]
   }],
   "urls": ["http://127.0.0.1:3000/index.html?#", "http://127.0.0.1:3000/index.html", "https://linamgr.github.io/cadastro-usuario/", "https://ksalmaze.github.io/Atividade-Verificacao-Formulario/", "https://niltonjr80.github.io/dev-web/cadastro-usuario/"],
   "plugins": []
